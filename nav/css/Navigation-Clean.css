@@ -22,7 +22,7 @@
 }
 
 .navigation-clean .navbar-brand:hover {
-  color: #222;
+  color: rgb(16, 76, 187);
 }
 
 .navigation-clean .navbar-toggler {
@@ -51,6 +51,7 @@
 
 .navigation-clean.navbar-light .navbar-nav .nav-link {
   color: #465765;
+  font-size: 1.5vw;
 }
 
 .navigation-clean.navbar-light .navbar-nav .nav-link:focus, .navigation-clean.navbar-light .navbar-nav .nav-link:hover {
@@ -64,6 +65,7 @@
   background-color: #fff;
   border-radius: 2px;
 }
+
 
 .navigation-clean .dropdown-menu .dropdown-item:focus, .navigation-clean .dropdown-menu .dropdown-item {
   line-height: 2;
