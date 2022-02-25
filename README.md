@@ -8,7 +8,7 @@ To The CSE Student.
 
 <p align="center">
   <a>
-    <img src="TECH.png" width="300px">
+    <img src="./img/README-FILE-IMG.jpeg" width="300px">
   </a>
   </p>
 
