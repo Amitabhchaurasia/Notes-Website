@@ -21,20 +21,14 @@ body {
   font-weight: bold;
   text-align: center;
   width: 23%;
-  margin: 10px;
+  margin: 15px;
+  font-size: 20px;
 }
 
 .loogo {
   margin: -80px;
   height: 100px;
   width: 100px;
-  border: 10px solid #fff;
-}
-
-.title {
-  font-size: 25px;
-  margin: 20px;
-  font-family: "Brush Script MT", cursive;
 }
 
 .address {
@@ -43,11 +37,24 @@ body {
   padding: 10px;
 }
 
-.Social-media {
+.Social-media > a {
   font-size: 25px;
   padding: 5px;
+  display: inline-block;
+  color: #000;
+  opacity: .65;
+}
+
+.Social-media > a:hover {
+  opacity: 1;
+}
+
+hr.line {
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 .copyright {
   text-align: center;
+  font-size: 14px;
 }
