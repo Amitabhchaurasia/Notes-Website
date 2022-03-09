@@ -67,7 +67,6 @@
   border-radius: 2px;
 }
 
-
 .navigation-clean .dropdown-menu .dropdown-item:focus, .navigation-clean .dropdown-menu .dropdown-item {
   line-height: 2;
   color: #37434d;
@@ -77,4 +76,3 @@
   background: #eee;
   color: inherit;
 }
-
