@@ -31,6 +31,7 @@
 
 .features-boxed .item {
   text-align: center;
+  transition: 0.8s;
 }
 
 .features-boxed .item .box {
@@ -38,6 +39,10 @@
   padding: 30px;
   background-color: #fff;
   margin-bottom: 30px;
+}
+
+.features-boxed .item .box:hover {
+  transform: scale(1.1);  
 }
 
 .features-boxed .item .icon {
@@ -49,9 +54,12 @@
 
 .features-boxed .item .name {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 25px;
   margin-bottom: 8px;
   margin-top: 24px;
-  color: inherit;
+  color: #000;
 }
 
+.features-boxed .item > a {
+  text-decoration: none;
+}
