@@ -54,3 +54,8 @@ td {
         height: 65vw;
     }
 }
+@media only screen and (max-width: 247px) {
+    .about-main {
+        height: 87vw;
+    }
+}
