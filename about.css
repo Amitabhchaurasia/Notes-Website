@@ -1,5 +1,5 @@
 .about-main {
-    height: 35vw;
+    height: 55vw;
 }
 
 .titleab {
@@ -12,7 +12,7 @@
 
 .aboutpic2 {
     width: 40vw;
-    margin-top: -5vw;
+    margin-top: vw;
     margin-left: 5vw;
     position: absolute;    
 }
@@ -27,22 +27,22 @@
 }
 
 .aboutdata3 {
-    font-size: 18px;
+    font-size: 1.5vw;
     text-align: justify;
 }
 
 .aboutdata4 {
-    font-size: 19px;
+    font-size: 1.5vw;
     text-align: justify;
 }
 
 .aboutdata5 {
-    font-size: 18px;
+    font-size: 1.5vw;
     text-decoration: underline;
 }
 
 .aboutdata5 > table {
-    width: 100%;
+    width: 2vw;
 }
 
 td {
