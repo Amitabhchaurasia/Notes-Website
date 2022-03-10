@@ -1,25 +1,51 @@
-.about-main{
+.about-main {
     height: 35vw;
 }
-.titleab{
+
+.titleab {
     text-align: center;
     font-size: 2.5vw;
     margin-left: 35vw;
     margin-top: 3vw;
+    text-shadow: 2px 2px 5px #A9A9A9;
 }
-.aboutpic2{
+
+.aboutpic2 {
     width: 40vw;
     margin-top: -5vw;
     margin-left: 5vw;
-    position: absolute;
-    
+    position: absolute;    
 }
-.aboutdata{
+
+.aboutdata {
     width: 48vw;
     margin-left: 49vw;
- 
-
 }
-.aboutdata2{
+
+.aboutdata2 {
     font-size: 1.5vw;
+}
+
+.aboutdata3 {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.aboutdata4 {
+    font-size: 19px;
+    text-align: justify;
+}
+
+.aboutdata5 {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.aboutdata5 > table {
+    width: 100%;
+}
+
+td {
+    padding-left: 15px;
+    font-size: 18px;
 }
