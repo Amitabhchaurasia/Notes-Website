@@ -49,3 +49,13 @@ td {
     padding-left: 15px;
     font-size: 18px;
 }
+@media only screen and (max-width: 600px) {
+    .about-main {
+        height: 65vw;
+    }
+}
+@media only screen and (max-width: 247px) {
+    .about-main {
+        height: 87vw;
+    }
+}
