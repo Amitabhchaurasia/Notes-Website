@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./req_css.css">
+    <link rel="stylesheet" href="./index_file/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./index_file/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="./index_file/css/Features-Boxed.css">
+    <link rel="stylesheet" href="./index_file/css/styles.css">
 </head>
 <body>
-    <div class="nav"></div>
-    <div class="container">
+    <div id="nav-bar" ></div>
+    <section class="box mainreqst">
+    <div class="container3" >
         <form onsubmit="alert('REQUEST SENT SUCCESSFULLY')">
             <h3>REQUEST FOR NOTES</h3>
             <input type="text" id="name" placeholder="Your Name" required>
@@ -18,6 +23,25 @@
             <button type="submit" >SUBMIT</button>
         </form>
     </div>
-    <div class="footer"></div>
+</section>
+
+    <div id="footer-area"  ></div>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!--Linking Nav Bar-->
+    <script>
+        $(function(){
+          $("#nav-bar").load("./nav.html");
+        });
+        </script>
+        <!--Nav bar end-->
+
+        <!--Linking Footer -->
+    <script>
+        $(function(){
+          $("#footer-area").load("./footer.html");
+        });
+        </script>
 </body>
 </html>
