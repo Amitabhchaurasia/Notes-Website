@@ -4,6 +4,14 @@ h1 {
   font-weight: bold;
 }
 
+marquee{
+  background-color: #eef4f7;
+  font-size: 1.5vw;
+  color: red;
+  margin-bottom: 2vw;
+}
 
-
+.box{
+  border-radius: 1.2vw;
+}
 
