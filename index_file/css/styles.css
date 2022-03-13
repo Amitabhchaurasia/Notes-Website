@@ -5,10 +5,12 @@ h1 {
 }
 
 marquee{
-  background-color: #eef4f7;
-  font-size: 1.5vw;
-  color: red;
+  background-color: lightblue;
+  font-size: 2vw;
+  color: black;
   margin-bottom: 2vw;
+  border-radius: 2vw;
+  
 }
 
 .box{
