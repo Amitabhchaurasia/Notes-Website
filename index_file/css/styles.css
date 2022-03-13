@@ -10,5 +10,13 @@ marquee{
   color: red;
 }
 
+.box{
+  border-radius: 1.2vw;
+}
 
-
+.parent:hover > div {
+  opacity: 0.2;
+}
+.parent:hover > div:hover {
+  opacity: 1;
+}
